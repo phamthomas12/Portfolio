@@ -1,0 +1,38 @@
+body,
+html {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(38, 68, 110);
+    background: url("../images/email-pattern.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    margin: 0;
+}
+
+table td {
+    position: relative;
+    width: 33%;
+    display: inline-block; 
+}
+
+section article {
+    width: 960px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+.tableContainer p {
+    text-align: center;
+
+}
+
+
+
