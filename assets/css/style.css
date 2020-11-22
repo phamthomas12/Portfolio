@@ -1,13 +1,13 @@
-body,
-html {
+body, html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgb(38, 68, 110);
-    background: url("../images/email-pattern.png");
+    background: cornsilk;
     background-repeat: repeat;
     width: 100%;
     height: 100%;
     font-size: 18px;
     margin: 0;
+    padding-top: 35px;  
 }
 
 table td {
@@ -18,21 +18,36 @@ table td {
 
 section article {
     width: 960px;
-    background-color: white;
-    border-radius: 10px;
+    height: 935px;
+    background-color:cornsilk;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 2px; 
 }
-
-.tableContainer {
-    overflow-x: auto;
-    margin: 0 auto;
+section h1 {
+    text-align: center;
+    position: relative;
 }
 
 .tableContainer p {
     text-align: center;
-
 }
 
+footer {
+    position:fixed;
+    bottom: 0%;
+    height: 45px;
+    width: 100%;
+    background: #343a34;
+    color: white;
+}
 
+.about-image {
+    float: left;
+    margin-right: 1rem;
+}
 
+@media screen and (max-width: 640px;) {
+    .about-image {
+        float: middle;
+    }
