@@ -10,15 +10,56 @@ body, html {
    
 }
 /*Footer CSS*/
+
 footer {
     position:fixed;
     bottom: 0%;
-    height: 45px;
+    height: 70px;
     width: 100%;
     background: #343a34;
     color: white;
     align-items:center;
 }
+.site-footer {
+    background-color: #838383;
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px 0;
+  }
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .github-icon,
+  .linkedin-icon{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      opacity: .6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .github-icon:hover,
+  .linkedin-icon:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
 /*Profile Pic CSS*/
 .about-image {
     float: left;
@@ -38,7 +79,8 @@ text-align: center;
     text-align: center;
 }
 .col-xs-12.col-md-9.shadow.p-3.mb-5.rounded {
- background-color:#8fa4aa ;
+ background-color:#8fa4aa;
+ position: relative;
 }
 
 /*Contact Page Box Styling*/
@@ -67,3 +109,4 @@ text-align: center;
         top: 0;
         z-index: 999;
     }
+}
