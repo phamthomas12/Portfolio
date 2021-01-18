@@ -5,7 +5,9 @@ body, html {
     width: 100%;
     height: 100%;
     font-size: 18px;
-    padding-top: 35px;  
+    padding-left: 9px;
+    padding-right: 9px;
+   
 }
 /*Footer CSS*/
 footer {
@@ -15,89 +17,40 @@ footer {
     width: 100%;
     background: #343a34;
     color: white;
+    align-items:center;
 }
 /*Profile Pic CSS*/
 .about-image {
     float: left;
     margin-right: 1rem;
 }
-/*Nav Bar Styling*/
-nav {
-    width: 960px;
-    height: 10%;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-nav ul {
-    padding: 0;
-    margin: 0;
-    background: rgb(248, 246, 246);
-    border-radius: 5px;
+/*Portfolio Page*/
+.portfolio-text {
+text-align: center;
 }
-
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
-    border-radius: 0px 0px 5px 5px;
-    padding: 20px 20px;
+.portfolio-card{
+    padding: 4px;
+    border: 6px;
+    border-color: #343a34;
 }
-
-.nameHeader {
-    background-color: #0074d9;
-    color:#d8d8d8;
-}
-/*PortFolio Page Grid*/
-table td {
-    position: relative;
-    width: 33%;
-    display: inline-block; 
-}
-
-section article {
-    width: 960px;
-    height: 935px;
-    background-color:cornsilk;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 2px; 
-}
-section h1 {
+.page-title{
     text-align: center;
-    position: relative;
 }
-
-.tableContainer p {
-    text-align: center;
+.col-xs-12.col-md-9.shadow.p-3.mb-5.rounded {
+ background-color:#8fa4aa ;
 }
 
 /*Contact Page Box Styling*/
-form {
+.form-group {
     border-radius: 9px;
     background-color: #d8d8d8;
-    padding: 13px;
-   
+    padding: 9px;
 }
 
-input[type=text],input[type=email],textarea {
-    width: 100%;
-    padding: 15px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    background: white;
-}
 
-input[type=submit] {
-    background-color:blueviolet;
-    border: 0;
-    border-radius: 3px;
-    font-size: 16px;
-    padding: 5px 20px;
-    color: white;
-}
 /*Media Query for All Pages*/
-@media screen and (max-width: 640px;) {
+@media screen and (max-width: 640px) {
     .about-image {
         float: middle;
     }

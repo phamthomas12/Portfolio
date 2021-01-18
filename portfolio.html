@@ -10,57 +10,101 @@
     <meta name= "contact" content=" Ask Me, Contact">
     
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
     <title>Portfolio</title>
 </head>
 <body>
   <!-- Nav Bar-->
-  <nav>
-    <ul>
-        <li class="nameHeader">Thomas Pham</li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-    <section>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Thomas Pham</a>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
       </div>
-      <article>
-        <h1>Portfolio</h1>
-          <hr>
-          <!-- Below is portfolio grid of links and images -->
-          <div class="tableContainer">
-            <table>
-              <td><a href="#"><img src="https://static.vecteezy.com/system/resources/previews/000/690/792/non_2x/rock-paper-scissors-hand-icons-vector.jpg" alt="ROckPaperScissors" width="315"
-                height="400"></a>
-                <strong><p>Rock Paper Scissors</p></strong>
-              </td>
-              <td><a href="#"><img src="https://d3b7tn9u8qgai7.cloudfront.net/wp-content/uploads/2017/04/Under.Maintenance.ILS_.Facebook.jpg" alt="Portfolio Placeholder" width="315"
-                height="400"></a>
-                <strong><p>Title Two</p></strong>
-              </td>
-              <td><a href="#"><img src="https://d3b7tn9u8qgai7.cloudfront.net/wp-content/uploads/2017/04/Under.Maintenance.ILS_.Facebook.jpg" alt="Portfolio Placeholder" width="315"
-                height="400"></a>
-                <strong><p>Title Three</p></strong>
-              </td>
-              <td><a href="#"><img src="https://d3b7tn9u8qgai7.cloudfront.net/wp-content/uploads/2017/04/Under.Maintenance.ILS_.Facebook.jpg" alt="Portfolio Placeholder" width="315"
-                height="400"></a>
-                <strong><p>Title Four</p></strong>
-              </td>
-              <td><a href="#"><img src="https://d3b7tn9u8qgai7.cloudfront.net/wp-content/uploads/2017/04/Under.Maintenance.ILS_.Facebook.jpg" alt="Portfolio Placeholder" width="315"
-                height="400"></a>
-                <strong><p>Title Five</p></strong>
-              </td>
-              <td><a href="#"><img src="https://d3b7tn9u8qgai7.cloudfront.net/wp-content/uploads/2017/04/Under.Maintenance.ILS_.Facebook.jpg" alt="Portfolio Placeholder" width="315"
-                height="400"></a>
-                <strong><p>Title Six</p></strong>
-                </td>
-            </table>
+    </div>
+  </nav>
+  <main class="container mt-3">
+    <div class="row">
+      <div class="col-xs-12 col-md-9 shadow p-3 mb-5 rounded" >
+        <h1 class="page-title">Portfolio</h1>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="portfolio-card">
+              <a href="https://phamthomas12.github.io/Project-1/">
+                <img
+                  src="assets/images/Project1.PNG"
+                  alt="Project-Travellerz"
+                  height="300"
+                  width="450"
+                />
+                <div class="portfolio-text">
+                  <h5>Project-Travellerz</h5>
+                </div>
+              </a>
+            </div>
           </div>
-      </article>
-    </section>
+
+          <div class="col-md-6 col-xs-12">
+            <div class="portfolio-card">
+              <a href="https://phamthomas12.github.io/HTML-and-CSS-Coding-Quiz/">
+                <img
+                  src="assets/images/Coding Quiz.gif"
+                  alt="HTML & CSS Coding Quiz"
+                  height="300"
+                  width="450"
+                />
+                <div class="portfolio-text">
+                  <h5>Code Quiz</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xs-12">
+            <div class="portfolio-card">
+              <a href="https://phamthomas12.github.io/DaySchedular/">
+                <img
+                  src="assets/images/DaySchedular.gif"
+                  alt="Personal DaySchedular"
+                  height="300"
+                  width="450"
+                />
+                <div class="portfolio-text">
+                  <h5>Personal DaySchedular</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xs-12">
+            <div class="portfolio-card">
+              <a href="https://phamthomas12.github.io/Password-Generator/">
+                <img
+                  src="assets/images/PasswordGenerator.png"
+                  alt="PasswordGenerator"
+                  height="300"
+                  width="450"
+                />
+                <div class="portfolio-text">
+                  <h5>Password Generator</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
     <!--Footer-->    
     <footer>
         <div class="relative-bottom card-footer">Copyright © Thomas Pham est. 2020</div>
