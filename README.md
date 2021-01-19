@@ -13,8 +13,12 @@ This is the Contact Page to contact me for now pressing the button doesnt send m
 <img alt="Contact" src="https://github.com/phamthomas12/Portfolio/blob/main/assets/images/Contact.PNG">
 
 Issues:
-Cant centre the container for both the portfolio and contact page for now
-Cant get the collapsed nav dropdown to toggle
+<ul>
+<li>Cant centre the container for both the portfolio and contact page for now</li>
+<li>Cant get the collapsed nav dropdown to toggle</li>
+</ul>
+
+
 
 
 Portfolio Link:
