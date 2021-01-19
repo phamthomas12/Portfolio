@@ -12,7 +12,7 @@ body, html {
 /*Footer CSS*/
 
 footer {
-    position:fixed;
+    position: fixed;
     bottom: 0%;
     height: 70px;
     width: 100%;
@@ -61,8 +61,9 @@ footer {
       text-align: center;
   }
 /*Profile Pic CSS*/
-.about-image {
-    float: left;
+.img-thumbnail.about-image {
+    margin: auto;
+    float: none;
     margin-right: 1rem;
 }
 
@@ -109,4 +110,16 @@ text-align: center;
         top: 0;
         z-index: 999;
     }
+    footer {
+        position: relative;
+        bottom: 0%;
+        height: 70px;
+        width: 100%;
+        background: #343a34;
+        color: white;
+        align-items:center;
+    }
 }
+
+
+
