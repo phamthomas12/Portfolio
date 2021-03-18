@@ -4,11 +4,6 @@ Restrucutred my Portfolio, I feel there is a lot more I can do however I had a v
 This is the default page that appears when the user first opens the webpage:
 <img alt="Default" src="https://github.com/phamthomas12/Portfolio/blob/main/assets/images/LandingPage.PNG">
 
-
-This is the porfolio page that has the Homework that I am proud to have made:
-<img alt="Portfolio" src="https://github.com/phamthomas12/Portfolio/blob/main/assets/images/Portfolio.PNG">
-
-
 This is the Contact Page to contact me for now pressing the button doesnt send me anything for now:
 <img alt="Contact" src="https://github.com/phamthomas12/Portfolio/blob/main/assets/images/Contact.PNG">
 
