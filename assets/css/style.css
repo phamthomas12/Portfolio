@@ -60,28 +60,70 @@ footer {
   .footer-nav p {
       text-align: center;
   }
+  .content {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+    display: flex;
+    position: absolute;
+    background: black;
+    height: auto;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.content:hover .content-overlay {
+    opacity: 0.7;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+    color: white;
+   
+}
+#project1,
+#burger,
+#project2,
+#employee-tracker,
+#day,
+#quiz {
+    height: auto;
+    width: 100%;
+    max-width: 100%; 
+} 
+
+#day,
+#employee-tracker,
+#quiz{
+    height: 285px;
+}
+a,
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    font-weight: bold;
+}
 /*Profile Pic CSS*/
 .img-thumbnail.about-image {
     margin: auto;
     float: none;
     margin-right: 1rem;
 }
-
-/*Portfolio Page*/
-.portfolio-text {
-text-align: center;
-}
-.portfolio-card{
-    padding: 4px;
-    border: 6px;
-    border-color: #343a34;
-}
-.page-title{
+.viewfolio {
+    font-family: 'open sans condensed';
+    font-size: 48px;
     text-align: center;
-}
-.col-xs-12.col-md-9.shadow.p-3.mb-5.rounded {
- background-color:#8fa4aa;
- position: relative;
+    font-weight: bold;
 }
 
 /*Contact Page Box Styling*/
@@ -90,6 +132,10 @@ text-align: center;
     background-color: #d8d8d8;
     padding: 9px;
 }
+.col-xs-12.col-md-9.shadow.p-3.mb-5.rounded {
+    background-color:#8fa4aa;
+    position: relative;
+   }
 
 
 /*Media Query for All Pages*/
